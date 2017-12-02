@@ -1,0 +1,4 @@
+unchanged-no screen print-clock speed:800				ticks per loop:310,000,000                seconds: 1.98
+full HD-no screen print-clock speed:800					ticks per loop:2400,000,000               seconds: 1.777
+
+
