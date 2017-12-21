@@ -55,6 +55,8 @@ fps = FPS().start()
 usr_frames = input('Frames: ')
 while fps._numFrames < usr_frames:
 	frame = vs.read()
+	cv2.imshow('frame',frame)
+	cv2.waitKey(1)
 	fps.update()
 
 fps.stop()

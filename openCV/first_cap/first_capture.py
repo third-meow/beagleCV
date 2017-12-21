@@ -16,7 +16,7 @@ for i in xrange(ramp_frames):
 print('Taking image...')
 
 camera_capture = get_image()
-file = '/home/jds/src/my_py/BBIO/openCV/first_cap1.png'
+file = './first_cap1.png'
 
 cv2.imwrite(file, camera_capture)
 

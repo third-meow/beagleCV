@@ -15,6 +15,8 @@ try:
 
 		res = cv2.bitwise_and(frame,frame,mask=mask)		#add images together
 
+		cv2.imshow('plain',frame)
+		cv2.imshow('mask',mask)
 		cv2.imshow('result',res) 				#print mask image to screen
 		vv = cv2.waitKey(1)
 
